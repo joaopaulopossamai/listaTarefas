@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 2%;
+  box-shadow: 0px 0px 10px #1e5fa09f;
+}
+#todaLista {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.task-box {
+  padding: 10px 20px;
+}
+body {
+  box-sizing: border-box;
+  background-color: #a9dae0;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #09b7c4;
+  padding: 10px;
+}
+
+header h1 {
+  color: #090202;
+  text-align: center;
+}
+
+main {
+  padding: 2%;
+  height: 85%;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+form input {
+  border: 3px solid #3bb5c5;
+  width: 75%;
+}
+
+form button {
+  background-color: #0b88d1;
+  padding: 10px;
+  width: 25%;
+}
+.task-item {
+  margin-bottom: 10px;
+}
+
+.task-checkbox {
+  margin-right: 5%;
+}
+
+.task-text {
+  margin-right: 5%;
+}
+
+.task-button {
+  margin-right: 5%;
+}
